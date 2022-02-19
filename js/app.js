@@ -49,7 +49,7 @@ funcCreateCards = (newMovieData) =>{
     <div class="movieCardSocial">
     <a href="#" onClick="funcLike('${nMD.id}')"><i class="fas fa-heart ${nMD.likes ? 'likeHeart': '' }"></i></a>
     <a href="https://www.imdb.com/title/${nMD.id}/" target="_blank" ><i class="fas fa-share-alt"></i></a>
-    <a href="#"><i class="fas fa-comment"></i></a>
+    <a href="#"><i class="fas fa-comment></i></a>
     </div>
     </div>
     </div>`;
@@ -83,4 +83,10 @@ movieData.sort(function(a, b) {
 funcCreateCards(movieData);
 };
 
+
+
+
+//Submit A Comment
+
+  
 
