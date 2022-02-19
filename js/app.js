@@ -48,7 +48,7 @@ funcCreateCards = (newMovieData) =>{
     <p>IMDB Rating: <span>${nMD.imDbRating}</span></p>
     <div class="movieCardSocial">
     <a href="#"><i class="fas fa-heart"></i></a>
-    <a href="#"><i class="fas fa-share-alt"></i></a>
+    <a href="https://www.imdb.com/title/${nMD.id}/" target="_blank" ><i class="fas fa-share-alt"></i></a>
     <a href="#"><i class="fas fa-comment"></i></a>
     </div>
     </div>
