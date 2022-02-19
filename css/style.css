@@ -19,10 +19,11 @@ body {
   display: inline-block;
   max-width: 400px;
   border-radius: 15px;
-  height: 650px;
+  min-height: 650px;
   margin: 25px;
   box-shadow: 5px 10px 18px black;
   transition: 0.15s ease-in-out;
+  padding: 10px 0px;
 }
 
 .movieCard:hover {
@@ -34,11 +35,12 @@ img {
   width: 350px;
   padding: 25px;
   border-radius: 3rem;
-  opacity: 0.9;
+  /* opacity: 0.9; */
 }
 
 .movieCardDetails {
   padding: 0px 25px;
+  max-width: 350px;
 }
 
 p {
@@ -62,10 +64,10 @@ i:hover {
   color: blue;
 }
 
-.likeHeart {
+.commented {
   color: red;
 }
 
-.commented {
+.likeHeart {
   color: red;
 }
